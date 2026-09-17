@@ -20,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "PHENIX GSM — Console partenaire",
-  description: "Exploitation API PHENIX GSM v2.9",
+  description: "Exploitation API PHENIX Partner v2.9",
 };
 
 export default function RootLayout({

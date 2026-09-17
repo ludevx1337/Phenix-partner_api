@@ -1,6 +1,6 @@
-# PHENIX GSM
+# PHENIX Partner
 
-Interface web interne de gestion GSM connectée à l’API **PHENIX GSM v2.9**.
+Interface web interne de gestion GSM connectée à l’API **PHENIX Partner v2.9**.
 
 Le projet est une application **Next.js 15 / React 19 / TypeScript** avec :
 
@@ -27,7 +27,7 @@ Next.js
    +--> Routes /api/phenix/*
               |
               v
-        API PHENIX GSM v2.9
+        API PHENIX Partner v2.9
 
 Supabase Cron
    |
@@ -230,7 +230,7 @@ Installer :
 Depuis PowerShell :
 
 ```powershell
-cd D:\Dev\Phenix-Interface\Phenix_GSM
+cd D:\Dev\Phenix-Interface\Phenixpartner_api
 npm install
 ```
 
@@ -410,7 +410,7 @@ SUPABASE_SERVICE_ROLE_KEY -> SERVICE_ROLE_KEY
 ## 11. Lancer l’application en développement
 
 ```powershell
-cd D:\Dev\Phenix-Interface\Phenix_GSM
+cd D:\Dev\Phenix-Interface\Phenixpartner_api
 npm run dev
 ```
 
@@ -509,6 +509,12 @@ Les métadonnées propres à Cursor ont été retirées du projet :
 
 Les occurrences comme `cursor-default`, `cursor-not-allowed` ou les dépendances `cli-cursor` ne sont pas liées à l’éditeur Cursor : ce sont des styles CSS ou des dépendances npm utiles, elles doivent donc rester présentes.
 
-## Licence
+## 18. Licence
 
-Projet interne — droits réservés.
+Ce projet est distribué sous licence **MIT**. Voir le fichier [`LICENSE`](./LICENSE).
+
+La licence MIT autorise notamment l’utilisation, la copie, la modification, la redistribution et l’utilisation commerciale du code, sous réserve de conserver la notice de copyright et le texte de la licence.
+
+La licence MIT couvre uniquement le code source de ce dépôt. Elle ne concède aucun droit sur les marques, services, documentations, données ou API de tiers utilisés par l’application, notamment **PHENIX Partner**, Supabase, Resend et Pushover. Les conditions d’utilisation propres à ces services restent applicables.
+
+Ce projet est une intégration indépendante utilisant l’**API PHENIX Partner** ; il ne doit pas être présenté comme un produit officiel de PHENIX Partner sauf autorisation explicite du détenteur concerné.

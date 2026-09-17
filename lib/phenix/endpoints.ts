@@ -1,4 +1,4 @@
-/** Chemins relatifs API PHENIX GSM v2.9 (base URL via env). */
+/** Chemins relatifs API PHENIX Partner v2.9 (base URL via env). */
 export const PhenixEndpoints = {
   authenticate: "/Auth/authenticate",
   saveCommandeSim: "/GsmApi/SaveCommandeSim",
